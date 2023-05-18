@@ -1,0 +1,9 @@
+<app-filho [informacaoFilho] = "informacaoPai"></app-filho>
+<!-- [informacaoFilho] -> variavel que esta no componente filho -->
+<!-- "informacaoPai" -> variavel que esta no componente pai -->
+
+<br>
+<h2> Exemplo de Emmitter</h2>
+<br>
+<p>My child typed: {{ text }}</p>
+<app-filho2 [(text)]="text"></app-filho2>

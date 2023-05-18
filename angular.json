@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "projeto"
+    }
+  },
+  "defaultProject": "projeto",
+  "cli": {
+    "analytics": false
+  }
 }
